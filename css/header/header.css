@@ -37,10 +37,48 @@ body{
     height: 60px;
     top: 68px;
     left: 0px;
-    border: 1px solid red;
 }
 
 li{
     list-style: none;
 }
 
+a{
+    position: absolute;
+    text-decoration: none;
+    width: 60px;
+    height: 40px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 157% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15px;
+
+    color: #000000;    
+}
+
+.home{
+    left: 40px;
+}
+
+.news{
+    left: 154px;
+}
+
+.contact{
+    left: 249px;
+}
+
+.gallery{
+    left: 354px;
+}
+
+.about{
+    left: 454px;
+}
