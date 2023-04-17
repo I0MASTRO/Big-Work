@@ -21,3 +21,26 @@ body{
     left: 210px;
     top: 26px;
 }
+
+.logo{
+    position: absolute;
+    width: 174px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+}
+
+.nav-list{
+    position: absolute;
+    background-color: white;
+    width: 1020px;
+    height: 60px;
+    top: 68px;
+    left: 0px;
+    border: 1px solid red;
+}
+
+li{
+    list-style: none;
+}
+
