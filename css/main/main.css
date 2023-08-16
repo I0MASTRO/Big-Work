@@ -1,25 +1,66 @@
 body{
     position: relative;
     width: 1440px;
-    height: 11253px;
+    height: 11253.38px;
     
     overflow-x: hidden;
     background: #FFFFFF;  
 }
 
 .head_main{
+    width: 1440px;
     position: absolute;
     height: 800px;
-    left: 0%;
-    right: 0%;
-    top: 0px;    
+    flex-shrink: 0;
+    left: 125px;
+    right: 125px;
+    top: 55px; 
+    bottom: 70px;   
 }
 
 .head_photo{
     position: absolute;
     height: 800px;
-    left: 0%;
-    right: 0%;
+    left: 0px;
+    right: 0px;
     top: 0px;
-    border-radius: 0px;      
+    bottom: 0px;      
+}
+
+.navbar{
+    position: absolute;
+    width: 1190px;
+    height: 40px;
+    
+    top: 55px;
+    bottom: 705px;
+    left: 125px;
+    right: 125px;
+    border: 1px solid red;
+}
+
+.ulbar{
+    display: flex;
+    width: 490px;
+    height: 30px;
+    padding: 0px 25.219px 0px 24.781px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-shrink: 0;
+
+    top: 0px;
+    left: 520px;
+    right: 180px;
+    bottom: 10px;
+    color: white;
+}
+
+.abar{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
